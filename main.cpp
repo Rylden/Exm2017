@@ -91,13 +91,13 @@ class emprunt : public client, public livre
     private:
     int num;
     public:
-    emprunt(int a, string b, int c, float d, int e):client(a,b),livre(c,d) //??????????????
+    emprunt(int a, string b, int c, float d, int e):client(a,b),livre(c,d) 
     {
 
         num=e;
     }
     ~emprunt() {};
-    void affiche() //?????????????????????
+    void affiche() 
     {
         cout<<num<<endl;
         livre::affiche();
